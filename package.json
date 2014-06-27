@@ -1,5 +1,5 @@
 {
-  "name": "fn-args",
+  "name": "fn-params",
   "version": "0.0.0",
   "description": "return the names of a function's parameters",
   "main": "fn.js",
