@@ -10,7 +10,7 @@ module.exports = function (fn) {
 
   var fnText = fn.replace(STRIP_COMMENTS, '');
   var argDecl = fnText.match(FN_ARGS);
-  return argDecl[1].split(',').map(function (arg) {
+  return (argDecl && argDecl[1]) ? argDecl[1].split(',').map(function (arg) {
     return arg.trim();
-  });
+  }) : [];
 };
