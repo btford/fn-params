@@ -1,0 +1,23 @@
+{
+  "name": "fn-args",
+  "version": "0.0.0",
+  "description": "return the names of a function's parameters",
+  "main": "fn.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/btford/fn-params.git"
+  },
+  "keywords": [
+    "function",
+    "parameters"
+  ],
+  "author": "Brian Ford <btford@umich.edu>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/btford/fn-params/issues"
+  },
+  "homepage": "https://github.com/btford/fn-params"
+}
